@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #10251c;
+  background: #f7f8f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-weight: 500;
+  color-scheme: light;
+  --bg-page: #f7f8f4;
+  --bg-panel: rgba(255, 255, 255, 0.8);
+  --bg-soft: #edf5e7;
+  --green-900: #10251c;
+  --green-800: #1f5138;
+  --green-700: #315e49;
+  --green-500: #2fa76f;
+  --lime: #b6e36a;
+  --amber: #f7c973;
+  --amber-strong: #f59e0b;
+  --red: #ef4444;
+  --red-soft: #fee2e2;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --shadow-soft: 0 18px 35px rgba(16, 37, 28, 0.08);
+  --shadow-card: 0 10px 30px rgba(17, 24, 39, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(182, 227, 106, 0.15), transparent 32%),
+    linear-gradient(135deg, rgba(255,255,255,0.7), rgba(247,248,244,0.92));
+  color: var(--green-900);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
